@@ -144,26 +144,10 @@ Dynamic tier system for right-sizing n8n workflow hardening.
 
 ### Claude Code
 
-**Method 1: Plugin Installation** (Recommended)
-```bash
-# Install directly as a Claude Code plugin
-/plugin install czlonkowski/n8n-skills
-```
-
-**Method 2: Via Marketplace**
-```bash
-# Add as marketplace, then browse and install
-/plugin marketplace add czlonkowski/n8n-skills
-
-# Then browse available plugins
-/plugin install
-# Select "n8n-mcp-skills" from the list
-```
-
-**Method 3: Manual Installation**
+**Manual Installation**
 ```bash
 # 1. Clone this repository
-git clone https://github.com/czlonkowski/n8n-skills.git
+git clone https://github.com/RedcoatAsher/n8n-skills-redux.git
 
 # 2. Copy skills to your Claude Code skills directory
 cp -r n8n-skills/skills/* ~/.claude/skills/
@@ -255,9 +239,6 @@ claude-code --skill n8n-expression-syntax "Test webhook data access"
 
 ---
 
-## 🤝 Contributing
-
-Contributions welcome! Please see [DEVELOPMENT.md](docs/DEVELOPMENT.md) for guidelines.
 
 ### Development Approach
 
@@ -277,7 +258,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Credits
 
-**Conceived by Romuald Członkowski**
+**Expanded by Asher Peruscini**
+- Website: [www.rivit.studio](https://www.rivit.studio/)
+
+**Originally conceived by Romuald Członkowski**
 - Website: [www.aiadvisors.pl/en](https://www.aiadvisors.pl/en)
 - Part of the [n8n-mcp project](https://github.com/czlonkowski/n8n-mcp)
 
@@ -301,4 +285,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Ready to build flawless n8n workflows? Get started now!** 🚀
+**Ready to build flawless, hardened n8n workflows? Get started now!** 🚀
