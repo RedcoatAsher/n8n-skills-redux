@@ -16,12 +16,15 @@ This repository contains 5 complementary **Claude Code skills** that teach AI as
 Building n8n workflows programmatically can be challenging. Common issues include:
 - Using MCP tools incorrectly or inefficiently
 - Getting stuck in validation error loops
+- Time wastage due to overengineering
 - Not knowing which workflow patterns to use
 - Misconfiguring nodes and their dependencies
+- Production errors even after local testing successful
 
 These skills solve these problems by teaching Claude:
 - ✅ Correct n8n expression syntax ({{}} patterns)
 - ✅ How to use n8n-mcp tools effectively
+- ✅ Automatic hardening-level selection (w/ manual override)
 - ✅ Proven workflow patterns from real-world usage
 - ✅ Validation error interpretation and fixing
 - ✅ Operation-aware node configuration
