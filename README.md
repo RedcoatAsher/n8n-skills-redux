@@ -1,6 +1,6 @@
-# n8n-skills
+# n8n-skills-redux
 
-**Expert Claude Code skills for building flawless n8n workflows using the n8n-mcp MCP server**
+**Expert Claude Code skills for building flawless n8n workflows with automatic workflow hardening using the `n8n-mcp` MCP server**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![n8n-mcp](https://img.shields.io/badge/n8n--mcp-compatible-green.svg)](https://github.com/czlonkowski/n8n-mcp)
